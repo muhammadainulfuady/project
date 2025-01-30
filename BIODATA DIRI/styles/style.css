@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: url("../images/html-color-codes-color-tutorials.jpg") no-repeat
+    center center;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Untuk layout utama */
+.main {
+  text-transform: capitalize;
+  border: 2px solid #17202a;
+  color: white;
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 900px; /* Agar tidak terlalu lebar di layar besar */
+}
+
+/* Header */
+.main h1 {
+  text-align: center;
+  padding: 10px;
+  background-color: #17202a;
+  border-bottom: 2px solid #ffffff8c;
+}
+
+/* Gambar */
+.images img {
+  display: block;
+  margin: 2rem auto;
+  border-radius: 50%;
+  width: 200px;
+  max-width: 100%;
+}
+
+/* Tabel */
+.my-education table {
+  margin: 1rem auto;
+  border: 2px solid #17202a;
+  padding: 2px;
+}
+
+/* Deskripsi */
+.description {
+  margin: 1rem auto;
+  width: 80%;
+  max-width: 700px;
+  text-align: justify;
+}
+
+/* Footer */
+.footer {
+  bottom: 0;
+  background-color: #17202a;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+/* --- Media Queries untuk Responsiveness --- */
+@media (max-width: 768px) {
+  .main {
+    width: 95%;
+    margin: 1rem auto;
+  }
+
+  .description {
+    width: 90%;
+  }
+
+  .description a {
+    width: 80%; /* Link lebih lebar di layar kecil */
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+
+  .description {
+    width: 95%;
+  }
+
+  .description a {
+    width: 90%; /* Supaya tetap nyaman diklik di HP */
+  }
+}

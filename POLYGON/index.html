@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan</title>
+    <style>
+      *,
+      body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        scroll-behavior: smooth;
+      }
+      .container {
+        background-color: teal;
+      }
+      .navbar {
+        background-color: grey;
+        padding: 1rem;
+        text-align: center;
+      }
+      .navbar a {
+        text-decoration: none;
+        padding: 1rem;
+        display: inline-block;
+        background-color: black;
+        color: white;
+        border-radius: 2rem;
+      }
+      .navbar .poly {
+        background-color: purple;
+        float: left;
+      }
+      .navbar a:hover {
+        background-color: #00000079;
+        transition: 0.5s;
+        color: pink;
+      }
+
+      .conten img {
+        width: 30rem;
+        max-width: 100%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .conten h1 {
+        text-align: center;
+        background-color: lightcoral;
+        font-weight: bold;
+        padding: 1rem;
+      }
+
+      .conten p {
+        text-align: justify;
+        line-height: 2.1rem;
+        font-size: 20px;
+        margin: 1rem;
+        background-color: lightblue;
+        border-radius: 1.2rem;
+      }
+
+      .kon #contact h1 {
+        text-align: center;
+        background-color: #232121;
+        font-weight: bold;
+        padding: 1rem;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      form label {
+        margin-top: 10px;
+        font-size: 16px;
+      }
+
+      form input,
+      form textarea {
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      form button {
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+
+      form button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="conten">
+        <img src="./IMAGES/x5.png" alt="eror" />
+        <section id="about">
+          <h1>About Polygon</h1>
+          <p>
+            Sepeda Polygon adalah salah satu merek sepeda terkenal yang berasal
+            dari Indonesia, yang telah mendapatkan pengakuan di pasar
+            internasional. Didirikan pada tahun 1989, Polygon awalnya fokus pada
+            produksi sepeda untuk pasar lokal, namun kini telah berkembang
+            menjadi salah satu merek sepeda yang banyak digunakan oleh
+            pengendara sepeda di seluruh dunia. Merek ini dikenal karena
+            kualitas tinggi, desain inovatif, serta harga yang kompetitif, yang
+            menjadikannya pilihan populer di kalangan penggemar sepeda. Polygon
+            menawarkan berbagai jenis sepeda, mencakup sepeda gunung (MTB),
+            sepeda jalan raya (road bike), sepeda lipat, sepeda anak, serta
+            sepeda hybrid yang menggabungkan elemen sepeda gunung dan sepeda
+            jalan raya.
+          </p>
+        </section>
+      </div>
+      <div class="kon">
+        <section id="contact">
+          <h1>Kontak Kami</h1>
+          <form action="#">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+          </form>
+        </section>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+        quibusdam nostrum vitae voluptatibus natus maiores inventore ullam
+        numquam architecto consectetur odit ex dolorem perferendis eveniet,
+        voluptatem tempora aliquid. Laboriosam, voluptates?2
+      </p>
+    </div>
+  </body>
+</html>
+
+<div class="conten">
+  <div class="table-buku">
+    <table border="1px" cellpadding="5" cellspacing="0">
+      <tr>
+        <th>No</th>
+        <th>Cover</th>
+        <th>Judul</th>
+        <th>Penulis</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><img src="/IMAGES/fox.png" alt="ero" /></td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><img src="/IMAGES/cover1.jpeg" alt="ero" /></td>
+        <td>Sebuah Seni untuk Bersikap Bodo Amat</td>
+        <td>Mark Manson</td>
+        <td>
+          Buku pengembangan diri yang menawarkan perspektif unik tentang cara
+          menghadapi masalah hidup dengan menerima keterbatasan dan fokus pada
+          hal-hal yang benar-benar penting.
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><img src="/IMAGES/cover2.jpeg" alt="ero" /></td>
+        <td>Bulan</td>
+        <td>Tere Liye</td>
+        <td>
+          Novel fantasi yang merupakan bagian dari serial "Bumi", menceritakan
+          petualangan tiga sahabat di dunia paralel dengan berbagai tantangan
+          dan misteri.
+        </td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td><img src="/IMAGES/cover3.jpeg" alt="ero" /></td>
+        <td>Dilan 1991</td>
+        <td>Piddi Baiq</td>
+        <td>
+          : Novel roman remaja yang melanjutkan kisah cinta antara Dilan dan
+          Milea, berlatar belakang Bandung tahun 1991.
+        </td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td><img src="/IMAGES/cover4.jpeg" alt="ero" /></td>
+        <td>Filosofi Teras</td>
+        <td>Henry Manampiring</td>
+        <td>
+          Buku non-fiksi yang memperkenalkan filsafat Stoisisme dan penerapannya
+          dalam kehidupan modern untuk mencapai ketenangan jiwa.
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
