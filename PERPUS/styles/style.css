@@ -1,0 +1,191 @@
+/* format */
+*,
+body {
+  background-color: #ddd;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header */
+.header {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.header img {
+  max-height: 150px;
+  background-color: #21fead;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.header h1 {
+  font-size: 30px;
+  border-radius: 2rem;
+  background-color: tomato;
+  padding: 2rem;
+  color: white;
+  text-align: justify;
+}
+
+.header span {
+  background-color: gray;
+  color: yellow;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.header:hover {
+  background-color: lightblue;
+}
+
+/* navbar */
+.navbar h4 {
+  background-color: #0606b5;
+  padding: 1rem;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.active {
+  background-color: #0774e1;
+}
+
+.navbar h4:hover {
+  background-color: #03033d;
+}
+
+/* gpt */
+ul {
+  list-style-type: none; /* Hilangkan bullet */
+  display: flex; /* Jadikan horizontal */
+  gap: 15px; /* Jarak antar item */
+}
+
+li {
+  margin-top: 1rem; /* Hilangkan margin default */
+}
+
+a {
+  text-decoration: none; /* Hilangkan garis bawah */
+  color: black; /* Warna teks */
+  padding: 5px 10px; /* Jarak dalam */
+  border-radius: 5px; /* Sudut membulat */
+  transition: background-color 0.3s; /* Efek transisi */
+  margin-left: 0.3rem;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #e9ecef; /* Warna latar saat dihover */
+  color: #0056b3; /* Warna teks saat dihover */
+}
+/* gpt end */
+
+/* conten */
+.conten h2 {
+  margin-top: 2rem;
+  background-color: tomato;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 24px;
+  transition: background-color 0.3s;
+}
+
+.conten h2:hover {
+  background-color: #21fead;
+}
+
+.conten p {
+  text-align: justify;
+  margin: 2rem 20rem;
+  border: 3px solid grey;
+  padding: 2rem;
+  background-color: lightblue;
+  line-height: 1.6rem;
+  word-spacing: 0.2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* conten */
+.conten .table-buku {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: tomato;
+  margin: 1rem;
+}
+
+.conten img {
+  width: 100px;
+}
+
+.table-buku th {
+  background-color: #03033d;
+  color: white;
+  padding: 2rem;
+}
+
+.table-buku td {
+  text-align: center;
+  padding: 2rem;
+  background-color: #0774e1;
+  color: white;
+  font-weight: bold;
+}
+
+/* contact */
+.contact form,
+label {
+  margin: 0;
+  background-color: gray;
+}
+
+.contact label {
+  display: block;
+  margin: 1rem 0.9rem;
+  color: white;
+  font-weight: bold;
+}
+
+.contact input,
+textarea {
+  background-color: #e4e4e4;
+  margin-left: 0.9rem;
+  width: 20rem;
+  height: 5rem;
+  border: 4px solid #c7c6c6;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0774e1;
+}
+
+button {
+  margin-left: 1rem;
+  background-color: #0606b5;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 1rem;
+  color: white;
+  display: block;
+  margin: 1rem 0.9rem;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+button:hover {
+  background-color: #03033d;
+  cursor: pointer;
+}

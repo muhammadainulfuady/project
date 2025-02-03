@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+body {
+  min-height: 100vh;
+  background: url("/IMAGES/gresik.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0 30px;
+}
+
+.header img {
+  max-height: 100px;
+}
+
+.header h1 {
+  font-size: 20px;
+  color: black;
+}
+
+.header h1 span {
+  color: yellow;
+  border-radius: 1rem;
+}
+
+/* navbar */
+.active {
+  background-color: #0774e1;
+}
+
+/* gpt */
+ul {
+  list-style-type: none; /* Hilangkan bullet */
+  display: flex; /* Jadikan horizontal */
+  gap: 15px; /* Jarak antar item */
+}
+
+li {
+  margin-top: 1rem; /* Hilangkan margin default */
+}
+
+a {
+  text-decoration: none; /* Hilangkan garis bawah */
+  color: #18e99c; /* Warna teks */
+  border-radius: 5px; /* Sudut membulat */
+  padding: 5px 10px; /* Jarak dalam */
+  transition: background-color 0.3s; /* Efek transisi */
+  margin-left: 0.3rem;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #e9ecef; /* Warna latar saat dihover */
+  color: #101111; /* Warna teks saat dihover */
+}
+/* gpt end */
+
+/* conten */
+.conten h2 {
+  text-align: center;
+  margin-top: 1rem;
+  color: black;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.conten p {
+  text-align: justify;
+  margin: 1rem 2rem;
+  border: 3px solid grey;
+  padding: 2rem;
+  background-color: #add8e6a7;
+  line-height: 1.6rem;
+  word-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+/* conten */
+.conten .table-buku {
+  margin: 4rem 2rem;
+}
+
+.conten img {
+  max-width: 100px;
+}
+
+.table-buku th {
+  background-color: #2828ba;
+  color: white;
+  padding: 1rem;
+  border: 2px solid #0be1da;
+  border-radius: 2rem;
+}
+
+.table-buku td {
+  text-align: center;
+  background-color: #0774e181;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #b4e808;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+/* contact */
+.contact form {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.contact label {
+  display: block;
+  margin: 1rem 0.9rem;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact input,
+textarea {
+  background-color: #3f3c3c;
+  margin-left: 0.9rem;
+  width: 30rem;
+  height: 8rem;
+  border: 4px solid #c7c6c6;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-wrap: warp;
+}
+
+button {
+  background-color: #ccccd9;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 1rem;
+  color: #100f0f;
+  display: block;
+  border-radius: 2rem;
+  margin: 1rem auto;
+}
+
+button:hover {
+  background-color: #b5b5c2;
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  background-color: #2d50d09c;
+  color: black;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header img {
+    max-height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+    padding: 1rem;
+  }
+
+  .navbar h4 {
+    font-size: 20px;
+    padding: 0.8rem;
+  }
+
+  .conten p {
+    margin: 1rem;
+    font-size: 16px;
+  }
+
+  .conten .table-buku {
+    overflow-x: auto;
+  }
+
+  .contact input,
+  .contact textarea {
+    width: 90%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 5px;
+  }
+
+  .header img {
+    max-height: 80px;
+  }
+
+  .header h1 {
+    font-size: 18px;
+    padding: 0.5rem;
+  }
+
+  .navbar h4 {
+    font-size: 16px;
+    padding: 0.5rem;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  a {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  .conten p {
+    margin: 0.5rem;
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 0.5rem;
+  }
+}

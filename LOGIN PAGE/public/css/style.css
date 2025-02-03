@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+body {
+  min-height: 100vh;
+  background: url("../images/anime walpaper.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: url("../images/windsows.jpg") no-repeat center center;
+  padding: 2rem;
+  border-radius: 2rem;
+  /* width: 800px; */
+  background-size: cover;
+  background-position: center;
+}
+
+.login-header {
+  color: #ffffffb7;
+  background: url("../images/thumb-1920-609736.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  padding: 0.3rem;
+  width: 200px;
+  text-align: center;
+  border-radius: 2rem;
+  margin: 1rem auto;
+}
+
+.form-group input {
+  background-size: cover;
+  background-position: center;
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem 1rem;
+  padding: 0.4rem;
+  border: 3px solid #09cc7e;
+  border-radius: 2rem;
+}
+
+.form-group .pinggire-kotak {
+  font-weight: bold;
+  background-color: black;
+  padding: 0.4rem;
+  border-radius: 2rem;
+}
+
+.box-icon {
+  display: inline-block;
+  color: black;
+}
+
+.login-form {
+  color: white;
+}
